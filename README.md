@@ -2,13 +2,8 @@
 My personal Arch Linux - BSPWM config files
 
 
-<h1 align="center">
-  <br>
-  <a href="https://github.com/ekarzaen/simple-bspwm-dotfiles/blob/main/preview.png"><img src="https://github.com/ekarzaen/simple-bspwm-dotfiles/blob/main/preview.png" alt="Markdownify" width="200"></a>
-  <br>
-  BSPWM
-  <br>
-</h1>
+<!-- # 🍚 dotfiles -->
+![img](preview.png)
 
 <h4 align="center">A minimal bspwm setup built on top of <a href="https://wiki.archlinux.org/title/Installation_guide" target="_blank">Archlinux</a>.</h4>
 
