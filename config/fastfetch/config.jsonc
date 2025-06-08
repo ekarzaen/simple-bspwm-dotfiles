@@ -1,0 +1,97 @@
+/*
+HyDE provides xdg/share/fastfetch/presets/hyde/*.config.jsonc files for different layouts. 
+You can also create your own config.jsonc file in the same directory to create a custom theme. 
+
+To test HyDE's fastfetch theme, run:
+fastfetch --config hyde/*.jsonc
+
+*/
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/ramaxd/.config/fastfetch/ascii/arch.txt",
+    "type": "auto",
+    "height": 20, 
+    "color": {"1": "green"},
+	"padding": {
+        "top": 1,
+        "right": 2,
+        "left": 1
+        }
+  },
+  "display": {
+    "separator": " : "
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": "  ",
+      "format": "{6} {7} {8}"
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "  󰣇 OS",
+      "format": "{2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "format": "{2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "de",
+      "key": "  󱗃 DE",
+      "format": "{2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "wm",
+      "key": "  󱗃 WM",
+      "format": "{2}",
+      "keyColor": "green"
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal",
+      "keyColor": "green"
+    },
+    {
+      "type": "shell",
+      "key": "   Shell",
+      "keyColor": "36"
+    },
+    {
+      "type": "packages",
+      "key": "  󰏗 Packages",
+      "keyColor": "36"
+    },
+    {
+      "type": "disk",
+      "key": "  󱦟 OS Age ",
+      "folders": "/",
+      "keyColor": "36",
+      "format": "{days} days"
+    },
+    {
+      "type": "uptime",
+      "key": "  󱫐 Uptime ",
+      "keyColor": "36"
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────┘"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}
