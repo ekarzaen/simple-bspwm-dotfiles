@@ -1,0 +1,15 @@
+
+[audacious]
+equalizer_active=TRUE
+equalizer_bands=4,2,0,0,-2,-2,-2,0,1,3
+
+[audqt]
+theme=dark
+
+[qtui]
+infoarea_show_vis=FALSE
+player_height=367
+player_width=826
+
+[skins]
+skin=/usr/share/audacious/Skins/Default
