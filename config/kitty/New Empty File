@@ -1,2 +1,2 @@
 cd ~/.config/kitty
-ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+ln -s ./themes/Floraverse.conf ~/.config/kitty/theme.conf
