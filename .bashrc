@@ -3,6 +3,7 @@
 #
 
 export PATH="$HOME/.local/bin/:$PATH"
+export PATH="$PATH:/opt/lampp/bin"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
